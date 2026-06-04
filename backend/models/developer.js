@@ -10,7 +10,7 @@ const developerSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
-//nice
+// do commit
 const Developer = mongoose.model("Developer", developerSchema);
 
 export default Developer;

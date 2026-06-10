@@ -6,3 +6,4 @@ const router = express.Router();
 router.post("/job/:jobId", authMiddleware, authorizeRole("student"), applyForJob);
 
 export default router;
+//l
